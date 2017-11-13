@@ -37,6 +37,7 @@ body {
     z-index: 5;
 }
 .page_background {
+	background-image: url(slider/1.jpg);
     filter: brightness(1);
     height: 400px;
     width: 100%;
@@ -153,11 +154,9 @@ header .content .language img.active {
         top: 5px;
     }
 }
-@media (max-width: 400px) {
-    .vacancy {
-        font-size: 12px;
-        width: 200px;
-        left: 5px;
-        top: 5px;
-    }
+@media (max-width: 576px) {
+    .page_background {
+		background-image: url(slider/2.jpg);
+	    background-position: bottom right;
+	}
 }
