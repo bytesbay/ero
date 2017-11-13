@@ -43,7 +43,7 @@ body {
     position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom right;
+    background-position: center;
 }
 
 .vacancy {
