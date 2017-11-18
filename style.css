@@ -103,17 +103,20 @@ header .content .language img.active {
     opacity: 0.5;
 }
 header .bad_words {
-    height: 20px;
+    width: 250px;
+    height: 40px;
     padding: 0 15px;
     position: absolute;
     background: #fafafa;
     color: #0a0a0a;
-    right: 20px;
-    bottom: -10px;
+    left: 50%;
+    margin-left: -125px;
+    bottom: -20px;
+    text-align: center;
 }
 header .bad_words h2 {
-    line-height: 20px;
-    font-size: 12px;
+    line-height: 40px;
+    font-size: 20px;
 }
 
 .whore {
