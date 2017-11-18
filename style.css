@@ -59,6 +59,7 @@ body {
 }
 
 header {
+    position: relative;
     border-bottom: 1px dashed #fafafa;
     padding-bottom: 20px;
 }
@@ -100,6 +101,19 @@ header .content .language img:hover {
 }
 header .content .language img.active {
     opacity: 0.5;
+}
+header .bad_words {
+    height: 20px;
+    padding: 0 15px;
+    position: absolute;
+    background: #fafafa;
+    color: #0a0a0a;
+    right: 20px;
+    bottom: -10px;
+}
+header .bad_words h2 {
+    line-height: 20px;
+    font-size: 12px;
 }
 
 .whore {
