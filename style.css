@@ -60,7 +60,7 @@ body {
 
 header {
     position: relative;
-    border-bottom: 1px dashed #fafafa;
+    /*border-bottom: 1px dotted #fafafa;*/
     padding-bottom: 20px;
 }
 header .title {
@@ -103,19 +103,19 @@ header .content .language img.active {
     opacity: 0.5;
 }
 header .bad_words {
-    width: 180px;
+    width: 290px;
     height: 40px;
-    padding: 0 15px;
+    padding: 0 5px;
     position: absolute;
     background: #0a0a0a;
     left: 50%;
-    margin-left: -90px;
+    margin-left: -145px;
     bottom: -20px;
     text-align: center;
 }
 header .bad_words h2 {
     line-height: 40px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .whore {
